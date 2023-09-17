@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.codegama.todolistapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:34:5-68
+11-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:34:22-65
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:35:5-81
+12-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:35:22-78
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\b28f0a76d3fd3d861b3f53c2bc751f24\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:10:5-79
+16-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\b28f0a76d3fd3d861b3f53c2bc751f24\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\b28f0a76d3fd3d861b3f53c2bc751f24\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:11:5-67
+17-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\b28f0a76d3fd3d861b3f53c2bc751f24\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:11:22-64
+18
+19    <application
+19-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:4:5-32:19
+20        android:name="com.codegama.todolistapplication.AppController"
+20-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:5:9-38
+21        android:allowBackup="true"
+21-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.2.0] C:\Users\jerom\.gradle\caches\transforms-3\6570255a3a359fd186d561f32b7ba884\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:8:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:11:9-40
+30        <activity android:name="com.codegama.todolistapplication.activity.AlarmActivity" />
+30-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:12:9-69
+30-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:12:19-57
+31        <activity android:name="com.codegama.todolistapplication.activity.MainActivity" >
+31-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:13:9-19:20
+31-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:13:19-56
+32            <intent-filter>
+32-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:14:13-18:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:15:17-69
+33-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:15:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:17:17-77
+35-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:17:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <receiver
+39-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:21:9-26:20
+40            android:name="com.codegama.todolistapplication.broadcastReceiver.AlarmBroadcastReceiver"
+40-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:21:19-75
+41            android:enabled="false" >
+41-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:22:13-36
+42            <intent-filter>
+42-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:23:13-25:29
+43                <action android:name="android.intent.action.BOOT_COMPLETED" />
+43-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:24:17-86
+43-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:24:25-76
+44            </intent-filter>
+45        </receiver>
+46
+47        <service
+47-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:28:9-30:38
+48            android:name="com.codegama.todolistapplication.broadcastReceiver.AlarmService"
+48-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:28:18-64
+49            android:enabled="true"
+49-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:29:13-35
+50            android:exported="true" />
+50-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:30:13-36
+51
+52        <receiver android:name="com.zubair.alarmmanager.receivers.BootCompleteReceiver" >
+52-->[com.github.zubairehman:AlarmManager:v1.2.0-alpha01] C:\Users\jerom\.gradle\caches\transforms-3\aaf18de31d1afef61cacc5a2fec3f78f\transformed\jetified-AlarmManager-v1.2.0-alpha01\AndroidManifest.xml:14:9-18:20
+52-->[com.github.zubairehman:AlarmManager:v1.2.0-alpha01] C:\Users\jerom\.gradle\caches\transforms-3\aaf18de31d1afef61cacc5a2fec3f78f\transformed\jetified-AlarmManager-v1.2.0-alpha01\AndroidManifest.xml:14:19-88
+53            <intent-filter>
+53-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:23:13-25:29
+54                <action android:name="android.intent.action.BOOT_COMPLETED" />
+54-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:24:17-86
+54-->C:\Users\jerom\Downloads\To-Do-List-Mobile-Application\app\src\main\AndroidManifest.xml:24:25-76
+55            </intent-filter>
+56        </receiver>
+57
+58        <service
+58-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\24075ffccab5d9ec83127225fdbced81\transformed\jetified-firebase-firestore-ktx-24.7.1\AndroidManifest.xml:9:9-15:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\24075ffccab5d9ec83127225fdbced81\transformed\jetified-firebase-firestore-ktx-24.7.1\AndroidManifest.xml:10:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\088bde90770fd07b9b5db952adf521ce\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:34:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\24075ffccab5d9ec83127225fdbced81\transformed\jetified-firebase-firestore-ktx-24.7.1\AndroidManifest.xml:11:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\24075ffccab5d9ec83127225fdbced81\transformed\jetified-firebase-firestore-ktx-24.7.1\AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+63-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\24075ffccab5d9ec83127225fdbced81\transformed\jetified-firebase-firestore-ktx-24.7.1\AndroidManifest.xml:13:17-126
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-firestore-ktx:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\24075ffccab5d9ec83127225fdbced81\transformed\jetified-firebase-firestore-ktx-24.7.1\AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\8699f0d157a0ffaad48ebadcdd7b8c76\transformed\jetified-firebase-common-ktx-20.3.1\AndroidManifest.xml:14:13-16:85
+66                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+66-->[com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\8699f0d157a0ffaad48ebadcdd7b8c76\transformed\jetified-firebase-common-ktx-20.3.1\AndroidManifest.xml:15:17-113
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\8699f0d157a0ffaad48ebadcdd7b8c76\transformed\jetified-firebase-common-ktx-20.3.1\AndroidManifest.xml:16:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\b28f0a76d3fd3d861b3f53c2bc751f24\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:17:13-19:85
+69                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+69-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\b28f0a76d3fd3d861b3f53c2bc751f24\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:18:17-111
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-firestore:24.7.1] C:\Users\jerom\.gradle\caches\transforms-3\b28f0a76d3fd3d861b3f53c2bc751f24\transformed\jetified-firebase-firestore-24.7.1\AndroidManifest.xml:19:17-82
+71        </service>
+72        <service
+72-->[androidx.room:room-runtime:2.2.5] C:\Users\jerom\.gradle\caches\transforms-3\22b3e2a336d97306ad8d51c1614030d4\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+73            android:name="androidx.room.MultiInstanceInvalidationService"
+73-->[androidx.room:room-runtime:2.2.5] C:\Users\jerom\.gradle\caches\transforms-3\22b3e2a336d97306ad8d51c1614030d4\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+74            android:directBootAware="true"
+74-->[androidx.room:room-runtime:2.2.5] C:\Users\jerom\.gradle\caches\transforms-3\22b3e2a336d97306ad8d51c1614030d4\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+75            android:exported="false" />
+75-->[androidx.room:room-runtime:2.2.5] C:\Users\jerom\.gradle\caches\transforms-3\22b3e2a336d97306ad8d51c1614030d4\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\088bde90770fd07b9b5db952adf521ce\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\088bde90770fd07b9b5db952adf521ce\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+79            android:authorities="com.codegama.todolistapplication.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\088bde90770fd07b9b5db952adf521ce\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\088bde90770fd07b9b5db952adf521ce\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\088bde90770fd07b9b5db952adf521ce\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:20.3.1] C:\Users\jerom\.gradle\caches\transforms-3\088bde90770fd07b9b5db952adf521ce\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jerom\.gradle\caches\transforms-3\8cc242c79306d048465c33a66c268c59\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jerom\.gradle\caches\transforms-3\8cc242c79306d048465c33a66c268c59\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jerom\.gradle\caches\transforms-3\8cc242c79306d048465c33a66c268c59\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jerom\.gradle\caches\transforms-3\8cc242c79306d048465c33a66c268c59\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jerom\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jerom\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jerom\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+92    </application>
+93
+94</manifest>
