@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.codegama.todolistapplication.app-mergeDebugResources-22:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jerom\\.gradle\\caches\\transforms-3\\079f5f6dae03bec7ece3d5026d7898e2\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jerom\\.gradle\\caches\\transforms-3\\66af778b481032874d43591ff1094b26\\transformed\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}
