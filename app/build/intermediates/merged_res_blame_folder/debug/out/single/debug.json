@@ -1,1 +1,158 @@
-
+[
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/menu_menu.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/menu/menu.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/layout_fragment_create_task.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/layout/fragment_create_task.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_completed.gif.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/completed.gif"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/anim_fade.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/anim/fade.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/layout_activity_alarm.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/layout/activity_alarm.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_bg_splash_gradient.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/bg_splash_gradient.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/layout_item_task.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_no_task.gif.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/no_task.gif"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/layout_fragment_calendar_view.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/layout/fragment_calendar_view.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_ic_add_black_24dp.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/ic_add_black_24dp.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_logoapp.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/logoapp.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_btn_background.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/btn_background.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.codegama.todolistapplication.app-pngs-19:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/layout_dialog_completed_theme.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/layout/dialog_completed_theme.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_correct.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/correct.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_more.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/more.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_ca.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/ca.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_first_note.gif.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/first_note.gif"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_btn_border.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/btn_border.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/raw_notification.mp3.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/raw/notification.mp3"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/layout_activity_main.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/layout_activity_splash_screen.xml.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_calendar.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/calendar.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_dot.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/dot.png"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/drawable_alert.gif.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/drawable/alert.gif"
+    },
+    {
+        "merged": "com.codegama.todolistapplication.app-merged_res-24:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.codegama.todolistapplication.app-main-26:/mipmap-hdpi/ic_launcher_round.png"
+    }
+]
